@@ -12,10 +12,10 @@ const Page = () => {
         <div>
             <Starter />
             <Navbar />
-            <div className='grid sm:grid-cols-12 gap-6 sm:px-8'>
+            <div className='grid sm:grid-cols-12 gap-3 sm:px-8 p-3 sm:p-2'>
                 {/* Main Content Column */}
                 <div className='sm:col-span-8 col-span-12'>
-                    <div className='ml-20 mt-9'>
+                    <div className='sm:ml-20 mt-9'>
                         <div className='bg-secondary p-2 w-full flex flex-col'>
                             <h1 className='text-xl font-semibold'>Free Delivery</h1>
                             <h1>Applies to orders of 14 000.00 or more
@@ -34,7 +34,7 @@ const Page = () => {
                                 height={150}
                                 className='mb-9' />
                             <div className='flex flex-col justify-start ml-11'>
-                                <div className='flex flex-row justify-between'>
+                                <div className='flex flex-row space-x-5 justify-between'>
                                     <h1 className='mb-2 font-semibold'>Nike Dri-FIT ADV TeachKnit Ultra</h1>
                                     <h1>MRP: 3895.00</h1>
                                 </div>
@@ -59,7 +59,7 @@ const Page = () => {
                                 height={150}
                                 className='mb-9' />
                             <div className='flex flex-col justify-start ml-11'>
-                                <div className='flex flex-row justify-between'>
+                                <div className='flex flex-row space-x-5 justify-between'>
                                     <h1 className='mb-2 font-semibold'>Nike Dri-FIT ADV TeachKnit Ultra</h1>
                                     <h1>MRP: 3895.00</h1>
                                 </div>
@@ -83,7 +83,7 @@ const Page = () => {
                 </div>
 
                 {/* Summary Column */}
-                <div className='sm:col-span-4 mr-4 col-span-12 sm:mt-0 mt-9'>
+                <div className='sm:col-span-4 sm:mr-4 col-span-12 sm:mt-0 mt-9 p-8 sm:p-2'>
                     <h1 className='text-2xl mt-9 font-semibold mb-5'>Summary</h1>
                     <div className='border-b-2 border-gray-300 mb-5'>
                         <div className='flex flex-row justify-between'>
@@ -121,11 +121,7 @@ const Page = () => {
                 </div>
 
             </div>
-
             <Footer />
-
-
-         
         </div>
 
     );
