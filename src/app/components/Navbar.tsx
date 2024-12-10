@@ -9,7 +9,7 @@ import { FaRegHeart } from "react-icons/fa";
 
 const Navbar = () => {
     return (
-        <div className="bg-main flex flex-row items-center justify-between py-0 px-6 shadow-lg">
+        <div className="bg-main w-full flex flex-row items-center justify-between py-0 px-6 shadow-lg">
             {/* Logo */}
             <div className="flex-shrink-0">
                 <Link href='/'>
