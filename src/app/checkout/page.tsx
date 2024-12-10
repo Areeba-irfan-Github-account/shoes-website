@@ -10,7 +10,7 @@ const page = () => {
   return (
     <div >
       <Navbar />
-      <div className='grid sm:grid-cols-2  gap-16 mr-11 ml-11'>
+      <div className='grid sm:grid-cols-2  gap-16 mr-11 sm:ml-11 ml-4 text-black'>
         <div className='flex flex-col'>
           <h1 className='font-bold mt-11 text-xl  mb-3'>How would you like to get your order?</h1>
           <p className='text-gray-400 mb-3 mt-2'>Customs regulation for India require a copy of the recipients KYC. The address on the KYC needs to match the shipping address. Our courier will contact you via SMS/email to obtain a copy of your KYC. The KYC will be stored securely and used solely for the purpose of clearing customs (including sharing it with customs officials) for all orders and returns. If your KYC does not match your shipping address, please click the link for more information.<span className='underline '> Learn More</span></p>
@@ -179,17 +179,17 @@ const page = () => {
 
         </div>
       </div>
-      <div className='flex flex-row justify-between bg-black p-4 pb-2'>
-        <div className='flex flex-row space-x-2 ml-1'>
+      <div className='flex flex-col sm:flex-row justify-between  bg-black p-4 pb-2 text-black'>
+        <div className='flex flex-col sm:flex-row space-x-2 sm:ml-1 mb-2'>
           <div className='flex flex-row space-x-1 text-white'>
             <FaLocationDot size={19} />
             <h1 className='text-xl'>India</h1>
           </div>
-          <div className='flex flex-row mt-1 text-gray-400 space-x-1'>
+          <div className='flex flex-row mt-1 text-gray-400 sm:space-x-1 mb-2'>
             <AiFillCopyrightCircle size={16} />
             <p className='text-xs '>2023 Nike , Inc . All Rights Reserved</p>
           </div>
-          <div className='flex flex-row justify-between mt-1 text-gray-400 space-x-2 pr-2'>
+          <div className='flex flex-row justify-between mt-1 text-gray-400 sm:space-x-2 pr-2'>
             <p className='text-xs'>Terms of Sale</p>
             <p className='text-xs'>Terms of Use</p>
             <p className='text-xs'>Privacy Policy</p>
@@ -263,16 +263,9 @@ const page = () => {
             width={45}
             height={27}
           />
-
-
-
-
         </div>
       </div>
-
     </div >
-
-
   )
 }
 
