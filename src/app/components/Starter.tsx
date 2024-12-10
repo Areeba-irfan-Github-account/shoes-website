@@ -6,7 +6,7 @@ import React from 'react';
 const Starter = () => {
 
     return (
-        <div className="bg-secondary flex flex-row items-center justify-between text-black space-y-0 px-8">
+        <div className="bg-secondary flex flex-row items-center w-full justify-between text-black space-y-0 px-8">
                 <Image
                     width={40}
                     height={100}
