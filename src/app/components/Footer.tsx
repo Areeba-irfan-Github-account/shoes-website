@@ -8,7 +8,7 @@ import { FaLocationDot } from "react-icons/fa6";
 
 const Footer = () => {
     return (
-        <div className='bg-black px-8'>
+        <div className='bg-black px-8 w-full'>
             <div className='flex flex-row justify-between'>
 
                 <div className='grid sm:grid-cols-3 pt-6'>
