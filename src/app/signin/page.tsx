@@ -6,10 +6,10 @@ import Footer from '../components/Footer';
 
 const Page = () => {
     return (
-        <div>
+        <div className='container max-auto max-w-7xl'>
             <Starter />
             <Navbar />
-            <div className="flex flex-col justify-center items-center mt-12 mb-20 px-4">
+            <div className="flex flex-col justify-center items-center mt-12 mb-20 px-4 ">
                 {/* Logo and Header Section */}
                 <div className="flex flex-col justify-center items-center">
                     <Image
@@ -66,7 +66,7 @@ const Page = () => {
                 </div>
 
                 {/* Sign-In Button */}
-                <button className="mt-6 bg-black  text-white rounded px-48 py-3 hover:bg-gray-800 transition">
+                <button className="mt-6 bg-black  text-white rounded sm:px-48 py-2 px-32 sm:py-3 hover:bg-gray-800 transition">
                     SIGN IN
                 </button>
 
