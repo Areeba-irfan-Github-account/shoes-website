@@ -3,14 +3,15 @@ import React from 'react'
 
 const Feature = () => {
   return (
-    <div className='flex flex-col justify-center items-center px-8'>
+    <div className='flex flex-col justify-center items-center px-8 container mx-auto max-w-7xl'>
         <div className='flex flex-col mr-11 mb-11 ml-11'>
-            <h1 className='text-2xl font-bold mb-4 mt-11'>Feature</h1>
+            <h1 className='text-5xl sm:text-4xl font-bold mb-4 mt-11 '>Feature</h1>
             <Image
-            src='/feature.png'
-            alt=''
+            src='/Feature.png'
+            alt='feature'
             width={1344}
             height={700}
+            className='hidden lg:block'
             />
         </div>
         <div className='flex flex-col justify-center items-center mt-6 mb-11'>
