@@ -89,7 +89,7 @@ const Page = () => {
                 </div>
 
                 {/* Sign-In Button */}
-                <button className="mt-6 bg-black  text-white rounded px-48 py-3 hover:bg-gray-800 transition">
+                <button className="mt-6 bg-black  text-white rounded sm:px-48 py-2 px-32 sm:py-3 hover:bg-gray-800 transition">
                     JOIN US
                 </button>
 
