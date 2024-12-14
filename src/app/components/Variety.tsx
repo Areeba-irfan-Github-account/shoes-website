@@ -23,10 +23,10 @@ interface Women {
 const products: Product[] = [
     {
         id: 1,
-        name: "Nike Dri-FIT Techknit Ultra",
+        name: "Nike Dri-FIT Techknit",
         price: 33995,
         category: "Running Top",
-        category1: "Men;s Short Sleeve",
+        category1: "Mens Short Sleeve",
         imageUrl: "/men.png",
     },
     {
@@ -34,7 +34,7 @@ const products: Product[] = [
         name: "Nike Dri-FIT Challenger",
         price: 10995,
         category: "Mens 18cm(appox) 2-",
-        category1: "in 1- Versatile Short",
+        category1: "Versatile Short",
         imageUrl: "/men2.png",
     },
 ];
@@ -58,13 +58,13 @@ const womens: Women[] = [
 ]
 const Variety = () => {
     return (
-        <div className=" flex flex-col lg:flex-row md:flex-row mt-4 mb-11 px-8"> 
+        <div className=" flex flex-col lg:flex-row md:flex-row mt-4 mb-11 sm:px-8 container max-auto max-w-7xl"> 
             {/* Men's Product Section */}
             <div className="flex-1"> {/* Flex 1 ensures this section takes up available space */}
                 <div className="flex  md:flex-row  justify-between mt-4"> {/* Align items to the left */}
-                    <h1 className="text-2xl font-bold mb-6">Best Of Air Max</h1>
+                    <h1 className="text-lg sm:text-2xl font-bold mb-6">Best Of Air Max</h1>
                     <div className="flex flex-row space-x-4">
-                        <h1 className="font-bold">Shop</h1>
+                        <h1 className="sm:font-bold">Shop</h1>
                         <div className="flex flex-row space-x-2">
                             <MdArrowBackIosNew
                                 size={24}
@@ -79,7 +79,7 @@ const Variety = () => {
                 </div>
                 <div
                     id="productList"
-                    className={`flex flex-row justify-start gap-4 mx-6 mb-11`}
+                    className={`flex flex-row justify-start items-center gap-4 mx-6 mb-11`}
                 >
                     {products.map((product) => (
                         <div key={product.id} className="flex flex-col items-start max-w-xs">  {/* Align items to the top */}
@@ -94,8 +94,8 @@ const Variety = () => {
                             {/* Product Details */}
                             <div className="flex flex-col justify-start mt-4 text-left"> {/* Text alignment to left */}
                                 {/* Product Name and Price */}
-                                <div className="flex flex-row justify-between text-xl font-bold">
-                                    <h1>{product.name}</h1>
+                                <div className="flex flex-row justify-between text-xl  sm:font-semibold">
+                                    <h1 className='text-lg sm:text-xl '>{product.name}</h1>
                                     <h1>{product.price.toLocaleString()}</h1>
                                 </div>
                                 {/* Product Category */}
@@ -142,8 +142,8 @@ const Variety = () => {
                             {/* Product Details */}
                             <div className="flex flex-col justify-start mt-4 text-left"> {/* Text alignment to left */}
                                 {/* Product Name and Price */}
-                                <div className="flex flex-row justify-between text-xl font-bold">
-                                    <h1>{women.name}</h1>
+                                <div className="flex flex-row justify-between text-xl sm:font-bold">
+                                    <h1  className='text-lg sm:text-xl '>{women.name}</h1>
                                     <h1>{women.price.toLocaleString()}</h1>
                                 </div>
                                 {/* Product Category */}
