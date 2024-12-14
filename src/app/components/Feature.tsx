@@ -7,8 +7,8 @@ const Feature = () => {
         <div className='flex flex-col mr-11 mb-11 ml-11'>
             <h1 className='text-5xl sm:text-4xl font-bold mb-4 mt-11 '>Feature</h1>
             <Image
-            src='/Feature.png'
-            alt='feature'
+            src='/feature.png'
+            alt='Feature'
             width={1344}
             height={700}
             className='hidden lg:block'
