@@ -36,7 +36,7 @@ const Navbar = () => {
                 {isHamburgerOpen && (
                     <div className="absolute  right-0 mt-11 w-48 text-white bg-black/60 backdrop-blur-md rounded-md shadow-lg m-3 p-4">
                         <div className="flex flex-col space-y-2">
-                            <Link href="/" className="hover:text-gray-900 hidden lg:block">
+                            <Link href="/" className="hover:text-gray-900">
                                 News & Featured
                             </Link>
                             <Link href="/men" className="hover:text-gray-900">
