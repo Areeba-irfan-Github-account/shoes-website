@@ -48,7 +48,7 @@ const Essential = () => {
                     </div>
                 </div>
             </div>
-            <div className='flex justify-center items-center mt-20 mb-20 '>
+            <div className='flex sm:justify-center sm:items-center mt-20 mb-20 '>
 
                 <div className='grid sm:grid-cols-4'>
                     <div className='ml-2  mr-2 '> 
