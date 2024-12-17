@@ -15,7 +15,7 @@ const Miss = () => {
                 className='hidden lg:block'/>
         </div>
         <div className='flex flex-col justify-center items-center mt-6 mb-6'>
-            <h1 className='mb-5 text-5xl font-bold'>FLIGHT ESSENTIALS</h1>
+            <h1 className='mb-5 text-4xl ml-1 sm:ml-2 sm:text-5xl font-bold'>FLIGHT ESSENTIALS</h1>
             <p className='mb-5 sm:m-2 m-6'>Your built-to-last, all week wears-but with style only Jordan Brand can deliver</p>
             <button className='bg-black px-9 py-2 sm:px-6 sm:py-2 rounded-l-full rounded-r-full text-white mt-4 '>Shop</button>
         </div>
